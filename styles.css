@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
@@ -40,5 +40,42 @@ footer {
     text-align: center;
     padding: 10px;
     background-color: #1b2431;
+    color: #fff;
+}
+
+#hero {
+    text-align: center;
+    padding: 80px 20px;
+    background-image: url('https://images.unsplash.com/photo-1527699280520-07a96b774205?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.cta {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background-color: #1b2431;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.theme-toggle {
+    margin-top: 10px;
+}
+
+body.dark {
+    background-color: #222;
+    color: #eee;
+}
+
+body.dark header,
+body.dark footer {
+    background-color: #000;
+}
+
+body.dark nav a {
     color: #fff;
 }
